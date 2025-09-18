@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Khung bao toàn bộ nội dung trừ header */
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid #ccc;
+        }
+
+        nav {
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav img {
+            height: 30px;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        section {
+            flex: 1;
+            padding: 15px;
+        }
+
+        section h2 {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            margin-top: 10px;
+        }
+
+        footer a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Home page</h1>
+    </header>
+
+    <div class="container">
+        <nav>
+            <img src="https://statictuoitre.mediacdn.vn/thumb_w/640/2017/7-1512755474943.jpg" alt="ảnh">
+            <a href="#">Presentation</a>
+            <a href="#">Studies</a>
+            <a href="#">Staff</a>
+        </nav>
+
+        <main>
+            <section class="one">
+                <h2>News</h2>
+                <p><b>News 1 - Date</b><br>Description</p>
+                <p><b>News 2 - Date</b><br>Description</p>
+            </section>
+
+            <section class="two">
+                <h2>Announcements</h2>
+                <p><b>Open course 1</b><br>Description</p>
+                <p><b>Open course 2</b><br>Description</p>
+            </section>
+        </main>
+
+        <footer>
+            Contact: <a href="mailto:info@university.com">info@university.com</a><br>
+            (c) University, 2011
+        </footer>
+    </div>
+</body>
+
+</html>
